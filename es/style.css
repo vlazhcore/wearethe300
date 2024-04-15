@@ -1,0 +1,324 @@
+@import url('https://kit.fontawesome.com/f73df7c37c.js" crossorigin="anonymous"');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@font-face {
+  font-family: 'Neutro';
+  src: url(fonts/neutro-cdnfonts/Neutro-ExtraBold.otf);
+}
+
+  *{
+    
+  }
+
+:root {
+	--mainColor: #003378;
+	--white: #ffff;
+	--textColor: #111d13;
+  --secondaryColor: #ffb300;
+  --complementaryColor: #95a3a4;
+
+}
+
+#bannerhome{
+  background-image: url(img/horizontal4.jpg);
+  text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+ 
+
+}
+
+#bannerhome:before{
+  content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+  
+}
+
+
+
+#active{
+
+  color: var(--white);
+  font-weight: bold;
+  
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+a.nav-link {
+
+color: var(--white);
+
+}
+
+a.lang{
+  font-size: 10px;
+  color: var(--secondaryColor);
+}
+
+a.nav-link:hover{
+  color: var(--secondaryColor);
+  font-weight: bold;
+}
+
+a.nav-link:active{
+  color: var(--secondaryColor);
+}
+
+nav{
+
+  background-color: var(--mainColor);
+}
+
+
+button.navbar-toggler{
+
+  --bs-btn-color: #fff;
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: none;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+  
+
+}
+
+#backgroundmain{
+  background-color: var(--mainColor);
+}
+
+#backgroundyellow{
+  background-color: var(--secondaryColor);
+}
+
+button.navbar-toggler:active{
+  border-style: none;
+  border: 0px;
+  color: transparent;
+  outline: none;
+}
+
+
+
+
+h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+#white{
+    background-color:#ffffff;
+    margin-top: 2px;
+}
+
+
+
+#card1{
+    background-image: url(img/card1.png);
+    margin: 0 auto;
+    background-size:contain;
+}
+
+#contactform{
+  background-color: var(--complementaryColor);
+  
+}
+
+
+
+
+
+.text-white{
+  color:  var(--white);
+}
+
+.text-maincolor{
+  color: var(--mainColor);
+}
+
+.bg-main{
+  background-color: var(--mainColor);
+  border-radius: 15px;
+  padding-inline: 12px;
+}
+
+.bg-yellow{
+  background-color: var(--secondaryColor);
+  border-radius: 15px;
+  padding-inline: 12px;
+}
+
+
+h1{
+  color: var(--mainColor);
+  font-family: 'Neutro';
+
+}
+
+p.pcarousel{
+  line-height: 0px;
+  font-weight: 500;
+}
+
+h1.h1carousel{
+  line-height: 20px;
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  
+}
+
+h2.subti-deco1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: var(--mainColor);
+  padding-bottom: 18px;
+  display: inline-block;
+  position:relative;
+  
+}
+
+h2.subti-deco1::before{
+  content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 8px solid var(--secondaryColor);
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -1px;
+  text-align: justify;
+}
+
+.yellowicon{
+  color: var(--secondaryColor);
+  font-weight: 900;
+}
+
+.maincoloricon{
+  color: var(--mainColor);
+  font-weight: 900;
+}
+
+
+
+.network::before{
+
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f6ff";
+  color: var(--secondaryColor);
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+#hamburger{
+  color: var(--white);
+  border-style: none;
+}
+
+ul.footerlist{
+  list-style: none;
+
+}
+
+a.footerlink{
+  color: var(--white);
+  text-decoration: none;
+}
+
+a.footerlink:hover{
+  color: var(--secondaryColor);
+  font-weight: bold;
+}
+
+.divfooter{
+  border-bottom: 15px;
+  border-bottom-color: var(--secondaryColor);
+  border-bottom-style: solid;
+  font-size: 15px;
+}
+
+
+p.rightsreserved{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.address{
+  display: inline;
+}
+
+div.join-us{
+  background: url(img/trabajaconnosotros.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+.weight-black{
+  font-weight: 900;
+}
+
+.weight-bold{
+  font-weight: 700;
+}
+
+
+
+img.zoom-effect:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+
+@media (max-width: 1520px) {
+  .aboutus1 {
+    background-image: url(./img/aboutus1.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  }
+}
+
+.aboutusleft{
+  background-image: url(img/aboutusleft.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
